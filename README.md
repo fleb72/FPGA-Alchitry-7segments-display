@@ -3,7 +3,7 @@ Description d'un afficheur 7-segments en Verilog
 
 Démonstration mettant en œuvre un afficheur multiplexé 7-segments à quatre digits (anode commune) en langage Verilog.
 La plateforme est une carte Alchitry Au sur laquelle est enfichée la carte d'extension Alchitry Io.
-l'EDI est Alchitry Labs (v2.6), mais le projet est aussi disponible pour Xilinx Vivado.
+l'EDI utilisé est Alchitry Labs (v2.6).
 
 [![Alchitry 7-seg display](https://img.youtube.com/vi/yRJb7t5qiEA/0.jpg)](https://www.youtube.com/watch?v=yRJb7t5qiEA)
 
