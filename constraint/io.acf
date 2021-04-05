@@ -1,0 +1,90 @@
+// LEDs on Io board
+pin io_led[0] B21;
+pin io_led[1] B20;
+pin io_led[2] B18;
+pin io_led[3] B17;
+pin io_led[4] B15;
+pin io_led[5] B14;
+pin io_led[6] B12;
+pin io_led[7] B11;
+pin io_led[8] B9;
+pin io_led[9] B8;
+pin io_led[10] B6;
+pin io_led[11] B5;
+pin io_led[12] B3;
+pin io_led[13] B2;
+pin io_led[14] A24;
+pin io_led[15] A23;
+pin io_led[16] A21;
+pin io_led[17] A20;
+pin io_led[18] A18;
+pin io_led[19] A17;
+pin io_led[20] A15;
+pin io_led[21] A14;
+pin io_led[22] A12;
+pin io_led[23] A11;
+
+
+// Digit display stuff
+// Digit select (active low)
+pin io_sel[0] A9;
+pin io_sel[1] A8;
+pin io_sel[2] A42;
+pin io_sel[3] A43;
+
+// Segement select (active low)
+pin io_seg[0] A5;  // A
+pin io_seg[1] A6;
+pin io_seg[2] A48;
+pin io_seg[3] A46;
+pin io_seg[4] A45;
+pin io_seg[5] A3;
+pin io_seg[6] A2;  // G
+pin io_seg[7] A49; // DP
+
+//DIP switches, see alchitry_io_sch.pdf
+// dip switch S1
+pin io_dip[0] B30 pulldown;  //DIP8
+pin io_dip[1] B31 pulldown;	 //DIP7
+pin io_dip[2] B33 pulldown;  //DIP6
+pin io_dip[3] B34 pulldown;  //DIP5
+pin io_dip[4] B36 pulldown;  //DIP4
+pin io_dip[5] B37 pulldown;  //DIP3
+pin io_dip[6] B39 pulldown;  //DIP2
+pin io_dip[7] B40 pulldown;  //DIP1
+
+// dip switch S2
+pin io_dip[8]  B42 pulldown;  //DIP16
+pin io_dip[9]  B43 pulldown;  //DIP15
+pin io_dip[10] B45 pulldown;  //DIP14
+pin io_dip[11] B46 pulldown;  //DIP13
+pin io_dip[12] B48 pulldown;  //DIP12
+pin io_dip[13] B49 pulldown;  //DIP11
+pin io_dip[14] A27 pulldown;  //DIP10
+pin io_dip[15] A28 pulldown;  //DIP9
+
+// dip switch S3
+pin io_dip[16] A30 pulldown;  //DIP24
+pin io_dip[17] A31 pulldown;  //DIP23
+pin io_dip[18] A33 pulldown;  //DIP22
+pin io_dip[19] A34 pulldown;  //DIP21
+pin io_dip[20] A36 pulldown;  //DIP20
+pin io_dip[21] A37 pulldown;  //DIP19
+pin io_dip[22] A39 pulldown;  //DIP18
+pin io_dip[23] A40 pulldown;  //DIP17
+
+// io buttons, see alchitry_io_sch.pdf
+//     S1
+// S4  S2   S5
+//     S3
+//
+// S1 --> B28
+// S2 --> B27
+// S3 --> B23
+// S4 --> B24
+// S5 --> C49
+pin io_button[0] B28 pulldown;
+pin io_button[1] B27 pulldown;
+pin io_button[2] B23 pulldown;
+pin io_button[3] B24 pulldown;
+pin io_button[4] C49 pulldown;

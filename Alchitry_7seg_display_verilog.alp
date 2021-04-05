@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Alchitry_7seg_display_verilog" board="Alchitry Au" language="Verilog" version="3">
+  <files>
+    <src>seven_seg_multiplexing.v</src>
+    <src>reset_conditioner.v</src>
+    <src>tenth_second_counter.v</src>
+    <src top="true">au_top.v</src>
+    <constraint lib="true">alchitry.acf</constraint>
+    <constraint>io.acf</constraint>
+    <constraint lib="true">au.xdc</constraint>
+  </files>
+</project>
